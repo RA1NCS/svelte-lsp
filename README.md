@@ -5,17 +5,21 @@ Claude Code plugin providing Svelte language server integration. Gives Claude LS
 ## Install
 
 ```bash
-# 1. install the language server
-npm install -g svelte-language-server
-
-# 2. add the marketplace
-claude plugin marketplace add RA1NCS/svelte-lsp
-
-# 3. install the plugin
-claude plugin install svelte-lsp@svelte-lsp
-
-# 4. restart claude code
+npx svelte-lsp-claude
 ```
+
+Then restart Claude Code.
+
+<details>
+<summary>Manual install</summary>
+
+```bash
+npm install -g svelte-language-server
+claude plugin marketplace add RA1NCS/svelte-lsp
+claude plugin install svelte-lsp@svelte-lsp
+```
+
+</details>
 
 ## What it does
 
