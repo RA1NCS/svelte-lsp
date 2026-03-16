@@ -1,0 +1,20 @@
+{
+  "name": "svelte-lsp",
+  "owner": {
+    "name": "RA1NCS",
+    "url": "https://github.com/RA1NCS/svelte-lsp"
+  },
+  "metadata": {
+    "description": "Claude Code plugin providing Svelte language server integration for .svelte file intelligence.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "svelte-lsp",
+      "source": "./plugins/svelte-lsp",
+      "description": "Svelte language server for Claude Code with go-to-definition, hover docs, references, and diagnostics on .svelte files.",
+      "version": "1.0.0",
+      "category": "development"
+    }
+  ]
+}

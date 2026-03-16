@@ -1,0 +1,20 @@
+{
+  "name": "svelte-lsp",
+  "description": "Svelte language server for Claude Code with go-to-definition, hover docs, references, and diagnostics on .svelte files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "RA1NCS",
+    "url": "https://github.com/RA1NCS"
+  },
+  "repository": "https://github.com/RA1NCS/svelte-lsp",
+  "license": "MIT",
+  "lspServers": {
+    "svelte": {
+      "command": "svelteserver",
+      "args": ["--stdio"],
+      "extensionToLanguage": {
+        ".svelte": "svelte"
+      }
+    }
+  }
+}
