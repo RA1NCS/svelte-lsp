@@ -1,0 +1,4 @@
+# this is a claude code plugin, primarily JSON config
+*.md linguist-documentation
+LICENSE linguist-documentation
+*.js linguist-vendored
